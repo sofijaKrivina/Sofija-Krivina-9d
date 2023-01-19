@@ -1,0 +1,59 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+
+	string password;
+	int i = 0;
+	do {
+		i++;
+		cin >> password;
+
+	} while (password != "0000" && i != 3);
+}
+
+//int i = 0;
+//do {i++;
+//	cout << i << "";
+//	cout << "hello" << endl;
+//} while (i < 120);
+
+//int i = 0;
+//do {
+//	i++;
+//	cout << i << " ";
+//	cout << i * i << endl;
+//} while (i < 20);
+
+//string name;
+//do {
+//	cin >> name;
+//} while (name != "stop");
+
+// int main() {
+//	string myname;
+//	do {
+//		cout << "sofija" << endl;
+//		cin >> myname;
+//		if (myname == "no") { cout << "yes"; };
+//	} while (myname != "Krivina");
+//	return 0;
+
+//double loopFib(double number)
+//{
+//	double temp = 0, value1 = 0, value2 = 1;
+//
+//	if (number == 0)return value1;
+//	if (number == 1)return value2;
+//
+//	for (int count = 2; count <= number; count++);
+//	{
+//		temp = value2;
+//		value2 = value2 + value1;
+//		value1 = temp;
+//	}
+//	return value2;
+//}
+
+
+
