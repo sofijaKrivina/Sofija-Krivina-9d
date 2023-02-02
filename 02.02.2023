@@ -1,0 +1,53 @@
+#include<iostream>
+using namespace std;
+
+void getName()
+{
+	string name;
+	cout << "Please enter your name";
+	cin >> name;
+}
+void getAge()
+{
+	int age;
+	cout << "Please enter your name";
+	cin >> age;
+}
+void faveColour()
+{
+	int choise;
+	do
+	{
+		cout << endl
+			<< "1-red.\n"
+			<< "2-blue.\n"
+			<< "3-idk.\n";
+		cin >> choise;
+
+		switch (choise)
+		{
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		}
+	} while (choise != 2 && choise != 1);
+}
+void enterPersonalNumber
+{
+	int persn;
+cout << "";
+cin >> persn;
+}
+
+int main()
+{
+	getName();
+	faveColour();
+	getAge();
+
+
+	return 0;
+}
