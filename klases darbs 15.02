@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+
+//int main() {
+//	cout << "*" << endl;
+//	cout << "***" << endl;
+//	cout << "*****" << endl;
+//	cout << "*******" << endl;
+//	cout << "*********" << endl;
+//	cout << "***********" << endl;
+//	cout << "*************" << endl;
+//	cout << "*****" << endl;
+//	cout << "*******" << endl;
+//	cout << "*********" << endl;
+//	cout << "***********" << endl;
+//	cout << "*************" << endl;
+//	cout << "***************" << endl;
+//	cout << "*****************" << endl;
+//	cout << "*******************" << endl;
+//	cout << "*******" << endl;
+//	cout << "*********" << endl;
+//	cout << "***********" << endl;
+//	cout << "*************" << endl;
+//	cout << "***************" << endl;
+//	cout << "*****************" << endl;
+//	cout << "*******************" << endl;
+//	cout << "*********************" << endl;
+//	cout << "***********************" << endl;
+//	cout << "*****" << endl;
+//	cout << "*****" << endl;
+//	cout << "*****" << endl;
+//	cout << "*****" << endl;
+//}
+int main() {
+
+	int i = 0;
+	do {
+		i++;
+		cout << i * 3 << endl;
+		
+
+	}while (i != 125);
+}
+int main() {
+int i = 0;
+
+do {
+
+	i++;
+
+	cout << i * 3 << endl;
+
+} while (i != 125);
+
+cout << endl;
+
+int a = 0;
+
+do {
+
+	a++;
+
+	cout << a a a << endl;
+
+} while (a != 20);
+
+cout << endl;
+
+int b = 1;
+
+do {
+
+	b++;
+
+	cout << "1/" <
+
+} while (b != 1000);
+
+}
