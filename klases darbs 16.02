@@ -1,0 +1,67 @@
+#include <iostream>
+using namespace std;
+
+#include <vector>
+int main() {
+	/*vector <int> sk{ 1,2,3,1,2 };
+	if (sk[0] == 1) cout << "pirmaja vieta ir 1" << endl;
+	if (sk[1] == 1) cout << "otraja vieta ir 1" << endl;
+	if (sk[2] == 1) cout << "otraja vieta ir 1" << endl;
+	if (sk[3] == 1) cout << "tresaja vieta ir 1" << endl;
+	if (sk[4] == 1) cout << "ceturtaja vieta ir 1" << endl;
+
+	if (sk[0] == 4) cout << "pirmaja vieta ir 4" << endl;
+	if (sk[1] == 4) cout << "otraja vieta ir 4" << endl;
+	if (sk[2] == 4) cout << "otraja vieta ir 4" << endl;
+	if (sk[3] == 4) cout << "tresaja vieta ir 4" << endl;
+	if (sk[4] == 4) cout << "ceturtaja vieta ir 4" << endl:*/
+
+	//string atb, num;
+	//vector<string>country{ "USA", "UK", "China", "India", "Canada", "Australia";
+	//vector<string>code{ "+1", "+44", "+86", "+91", "+1", "+61" };
+	//cin >> atb >> num;
+	//if (code[0] == atb) {cout << country[0] << " " << atb << num << endl;}
+	////if (count[0] == atb) { cout << count[0] << " " << atb << num << endl; }
+
+    //if (count[1] == atb) { cout << count[1] << " " << atb << num << endl; }
+
+    //if (count[2] == atb) { cout << count[2] << " " << atb << num << endl; }
+
+//if (count[3] == atb) { cout << count[3] << " " << atb << num << endl; }
+
+//if (count[2] == atb) { cout << count[2] << " " << atb << num << endl; }
+
+//if (count[3] == atb) { cout << count[3] << " " << atb << num << endl; }
+
+//string nam, atz;
+
+//vector Vards{ "Tubik", "Slang", "Nikita","Grigorij","Devjatka" };
+
+//vector Atzime{9,10,5,9,6};
+
+//cout << Atzime[0] << " " << Vards[0] << endl;
+
+//cout << Atzime[1] << " " << Vards[1] << endl;
+
+//cout << Atzime[2] << " " << Vards[2] << endl;
+
+//cout << Atzime[3] << " " << Vards[3] << endl;
+
+//cout << Atzime[4] << " " << Vards[4] << endl;
+
+//cin >> nam >> atz;
+
+//if (Atzime[0] == 9) { cout << Vards[0] << " " << nam << atz << endl; }
+
+//if (Atzime[1] == 10) { cout << Vards[1] << " " << nam << atz << endl; }
+
+//if (Atzime[2] == 5) { cout << Vards[2] << " " << nam << atz << endl; }
+
+//if (Atzime[3] == 9) { cout << Vards[3] << " " << nam << atz << endl; }
+
+//if (Atzime[4] == 6) { cout << Vards[4] << " " << nam << atz << endl; }
+
+//else cout << " :((((";
+
+	}
+	
