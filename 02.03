@@ -1,0 +1,25 @@
+-- create
+CREATE TABLE laikapst (
+  numurs INTEGER PRIMARY KEY,
+  day text  NOT NULL,
+  dete TEXT  NOT NULL,
+  w TEXT NOT NULL,
+  temp integer NOT NULL
+);
+
+-- insert
+INSERT INTO laikapst VALUES (0001, "pirm", "20 feb",'sunny', -8);
+INSERT INTO laikapst VALUES (0002, "otr", "21 feb", 'cloudy', -4);
+INSERT INTO laikapst VALUES (0003, "treš", "22 feb", 'cloudy', -6);
+INSERT INTO laikapst VALUES (0004, "cet", "23 feb", 'sunny', +1);
+INSERT INTO laikapst VALUES (0005, "piekt", "24 feb", 'rainy', -3);
+INSERT INTO laikapst VALUES (0006, "sest", "25 feb", 'cloudy', +2);
+INSERT INTO laikapst VALUES (0007, "svet", "26 feb", 'sunny', 0);
+INSERT INTO laikapst VALUES (0008, "pirm", "27 feb", 'cloudy', -5);
+INSERT INTO laikapst VALUES (0009, "otr", "28 feb", 'cloudy', +6);
+INSERT INTO laikapst VALUES (0010, "treš", "1 mart", 'sunny', +1);
+INSERT INTO laikapst VALUES (0011, "cet", "2 mart", 'sunny', +2);
+
+-- fetch 
+SELECT * FROM laikapst ;
+
