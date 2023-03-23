@@ -1,0 +1,25 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  kurjera_v TEXT NOT NULL,
+  kurjera_u TEXT NOT NULL,
+  rajons TEXT NOT NULL,
+  vecums INTEGER NOT NULL,
+  dzimums TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Clark', 'Demien', 'USA', 27, 'man');
+INSERT INTO EMPLOYEE VALUES (2, 'Dave', 'Sales', 'Canada', 32, 'man');
+INSERT INTO EMPLOYEE VALUES (3, 'Ava', 'Matris', 'UK', 21, 'woman');
+INSERT INTO EMPLOYEE VALUES (4, 'Kaven', 'Gosling', 'Mexica', 43, 'man');
+-- fetch 
+SELECT * FROM EMPLOYEE;
+
+SELECT * FROM EMPLOYEE where vecums>45;
+SELECT * FROM EMPLOYEE where rajons='USA' and dzimums='man';
+
+SELECT AVG(vecums)
+FROM EMPLOYEE;
+SELECT MIN(vecums)
+FROM EMPLOYEE;
